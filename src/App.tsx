@@ -32,17 +32,7 @@ export default function App() {
           <Navbar />
           <main className="relative z-10">
             <Hero />
-
-            <div className="flex justify-center py-6">
-              
-                href="/Resi.pdf"
-                download="Resi"
-                className="inline-flex items-center gap-2 px-8 py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold rounded-full transition-all duration-300 shadow-lg shadow-cyan-500/25"
-              >
-                Download Resume
-              </a>
-            </div>
-
+            <div className="flex justify-center py-6"><a href="/Resi.pdf" download="Resi" className="px-8 py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold rounded-full transition-all duration-300">Download Resume</a></div>
             <Experience />
             <Projects />
             <Skills />
@@ -50,9 +40,7 @@ export default function App() {
             <Education />
             <Contact />
           </main>
-
           <Chatbot />
-
           <footer className="relative z-10 py-8 text-center border-t border-slate-800/50 bg-slate-950/50 backdrop-blur-md">
             <p className="text-slate-500 text-sm">
               © {new Date().getFullYear()} Pratham Mishra. All rights reserved.
