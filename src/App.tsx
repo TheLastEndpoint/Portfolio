@@ -32,7 +32,6 @@ export default function App() {
           <Navbar />
           <main className="relative z-10">
             <Hero />
-            <div className="flex justify-center py-6"><a href="/Resi.pdf" download="Resi" className="px-8 py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold rounded-full transition-all duration-300">Download Resume</a></div>
             <Experience />
             <Projects />
             <Skills />

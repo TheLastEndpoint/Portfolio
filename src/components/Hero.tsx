@@ -47,9 +47,9 @@ export default function Hero() {
             <ArrowDown className="w-5 h-5" />
           </button>
           
-          <a
-            href="/Pratham_Mishra_Resume.pdf"
-            download="Pratham_Mishra_Resume.pdf"
+          
+            href="/Resi.pdf"
+            download="Resi.pdf"
             className="flex items-center gap-2 px-8 py-4 font-semibold text-white transition-all border rounded-full border-slate-700 bg-slate-800/50 hover:bg-slate-800 hover:border-slate-600 backdrop-blur-sm"
           >
             Download Resume
