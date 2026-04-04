@@ -33,14 +33,13 @@ export default function App() {
           <main className="relative z-10">
             <Hero />
 
-            {/* Download Resume Button */}
             <div className="flex justify-center py-6">
               
                 href="/Resi.pdf"
                 download="Resi"
                 className="inline-flex items-center gap-2 px-8 py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold rounded-full transition-all duration-300 shadow-lg shadow-cyan-500/25"
               >
-                ⬇ Download Resume
+                Download Resume
               </a>
             </div>
 
